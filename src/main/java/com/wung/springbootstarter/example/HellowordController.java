@@ -3,7 +3,7 @@
  */
 package com.wung.springbootstarter.example;
 
-import com.wung.springbootstarter.helloword.HelloWordService;
+import com.wung.springbootstarter.helloword.HellowordService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HellowordController {
 	
 	@Autowired
-	private HelloWordService hellowordService;
+	private HellowordService hellowordService;
 	
 	
 	@GetMapping("/")
